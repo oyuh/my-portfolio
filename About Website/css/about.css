@@ -99,47 +99,6 @@ h5 {
 }
 
 
-/* --- EDUCATION & EXPERIENCE --- */
-
-.education-experience-container h3 {
-    margin-bottom: 50px;
-}
-
-#experience {
-    margin-top: 50px;
-}
-
-.education-experience-card {
-    margin-top: 25px;
-}
-
-.card-info p {
-    margin-top: 0.35em;
-}
-
-.card-info p a:hover {
-    color: #9384f0;
-}
-
-.card-description {
-    margin: 15px 0 0 15px;
-}
-
-.card-description p:not(:first-child) {
-    margin-top: 0.35em;
-}
-
-.card-description p::before {
-    content: ">\A0";
-    color: #3e79aa;
-    font-weight: 700;
-}
-
-.card-description h5:not(:first-child) {
-    margin-top: 10px;
-}
-
-
 /* --- TECH STACK --- */
 
 .tech-stack-container {
@@ -227,7 +186,7 @@ h5 {
         margin: 0;
     }
     .me-icon-container {
-        width: 300px;
+        width: 500px;
         height: auto;
     }
     .education-experience-card {

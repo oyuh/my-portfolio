@@ -9,7 +9,6 @@ em {
 
 .project-cards-container {
     margin-top: 50px;
-    height: fit-content;
     height: -moz-fit-content;
 }
 
@@ -101,8 +100,5 @@ em {
 }
 
 @media only screen and (min-width: 768px) {
-    .project-cards-container {
-        column-count: 2;
-        column-gap: 2em;
-    }
+    .project-cards-container {}
 }
