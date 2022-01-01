@@ -6,7 +6,7 @@ My personal **website/portfolio** hosts donations, projects, skills, and an abou
 
 Uses basic *HTML5* with a little bit of *SASS*.
 
-Made in about 3 days by [me](lawsonhart.me).
+Made in about 3 days by [me](https://lawsonhart.me).
 
 
 
