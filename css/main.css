@@ -1,3 +1,19 @@
+:root {
+    --main-text: #9384f0;
+    --background-color: #1e232e;
+    --blue-text: #3e79aa;
+}
+
+.hue {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-color: #000000;
+}
+
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -11,7 +27,7 @@
 }
 
 body {
-    background-color: #1e232e;
+    background-color: var(--background-color);
 }
 
 ::-webkit-scrollbar {
@@ -23,7 +39,7 @@ body {
 }
 
  ::-webkit-scrollbar-thumb {
-    background: #9384f0;
+    background: var(--main-text);
 }
 
  ::-webkit-scrollbar-thumb:hover {
@@ -59,7 +75,7 @@ span {
 }
 
 .blue {
-    color: #3e79aa;
+    color: var(--blue-text);
 }
 
 .bold {
@@ -70,7 +86,11 @@ span {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
-    color: #9384f0;
+    color: var(--main-text);
+}
+
+.shadowed {
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.050);
 }
 
 ul {
@@ -82,7 +102,7 @@ ul {
 }
 
 .social-link a i:hover {
-    color: #9384f0;
+    color: var(--main-text);
 }
 
 .main-container {
@@ -102,14 +122,14 @@ section {
 }
 
 section .hyperlink {
-    color: #9384f0;
+    color: var(--main-text);
     font-weight: 700;
     text-decoration: underline;
     transition: all 0.2s ease;
 }
 
 section .hyperlink:hover {
-    color: #3e79aa;
+    color: var(--blue-text);
 }
 
 .section-description {
