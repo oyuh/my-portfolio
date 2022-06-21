@@ -1,0 +1,275 @@
+:root {
+    --main-text: #9384f0;
+    --background-color: #1e232e;
+    --blue-text: #3e79aa;
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 12%;
+    background-color: var(--background-color);
+}
+
+ ::-webkit-scrollbar {
+    width: 7px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #0e1014;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--main-text);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #413b69;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fira Mono', monospace;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+a,
+span {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.blue {
+    color: var(--blue-text);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.purple {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--main-text);
+}
+
+.shadowed {
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.050);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-link a i {
+    transition: all 0.2s ease;
+}
+
+.social-link a i:hover {
+    color: var(--main-text);
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 0 25px;
+    text-align: center;
+    max-width: 1600px;
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-top: 8vh;
+}
+
+section .hyperlink {
+    color: var(--main-text);
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+}
+
+section .hyperlink:hover {
+    color: var(--blue-text);
+}
+
+.section-description {
+    margin: 50px auto 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+}
+
+.page-title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title img {
+    height: 40px;
+    width: auto;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+}
+
+#keyboard {
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard tr td,
+.key_row div {
+    float: left
+}
+
+.key_block {
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin: 0;
+    padding: 0
+}
+
+.key_block tr td,
+.key_row div {
+    padding: 4px 8px;
+    margin: 4px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: monospace
+}
+
+.key_block td.blank {
+    border-color: transparent
+}
+
+.key_small {
+    font-size: 10px
+}
+
+.key_row {
+    clear: both
+}
+
+.key_un {
+    border-color: silver
+}
+
+.key_highlight {
+    border-color: orange
+}
+
+.key_pressed {
+    border-color: rgb(182, 77, 235)
+}
+
+.key_pressed_m {
+    border-color: rgb(128, 128, 128)
+}
+
+#testarea {
+    margin: 0 auto;
+    width: 60vw;
+    height: 20vh;
+    overflow: auto;
+    resize: vertical;
+    border: 0;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Nunito', monospace;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 15px;
+    /*center the form*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#key32 {
+    width: 100px;
+    text-align: center
+}
+
+.key_name {
+    font-family: Nunito Sans, sans-serif;
+}
+
+.label {
+    float: left;
+    padding-right: 20px;
+    font-style: italic
+}
+
+#notes {
+    float: left;
+    margin: 0 0 32px 20px;
+    padding: 0
+}
+
+#soundArea {
+    float: right;
+    margin-left: 2em;
+    margin-top: 24px
+}
+
+.pcliqGo img {
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.pcliqGo:hover img {
+    border-color: blue
+}
