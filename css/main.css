@@ -4,6 +4,11 @@
     --blue-text: #3e79aa;
 }
 
+.new {
+    text-decoration: solid;
+    text-decoration-color: gold;
+}
+
 .hue {
     position: absolute;
     left: 0px;
@@ -12,6 +17,12 @@
     height: 100px;
     z-index: 1;
     background-color: #000000;
+}
+
+.text-gradient {
+    background: linear-gradient(118deg, #4ed2f3, #bd93da 80%, #6270ee);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 * {
