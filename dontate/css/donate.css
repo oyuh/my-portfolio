@@ -21,9 +21,10 @@ h5 {
     text-align: center;
 }
 
-.btc-icon {
-    height: 400px;
-    width: 400px;
+.crypto-icon {
+    height: 250px;
+    width: 250px;
+    padding: 25px;
 }
 
 .right-side-buttons i {
