@@ -14,7 +14,7 @@ header {
     height: 70px;
     padding: 0 15px;
     z-index: 2;
-    background-color: #1e232e;
+    background-color: #1e232e00;
 }
 
 .header-logo {
@@ -45,7 +45,7 @@ header {
     width: 100vw;
     letter-spacing: 0.1em;
     transition: all 0.2s ease;
-    color: #1e232e;
+    color: #1e232e00;
 }
 
 .nav-item a:hover,
@@ -81,7 +81,7 @@ header {
         position: relative;
         align-items: center;
         flex-direction: row;
-        background-color: #1e232e;
+        background-color: #1e232e00;
         height: fit-content;
         height: -moz-fit-content;
     }

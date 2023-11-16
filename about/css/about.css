@@ -114,7 +114,27 @@ h5 {
 .skill {
     border-radius: 12px;
     margin: 10px;
-    border: 2px solid #3e79aa;
+    border: 2px solid #4e3eaa;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-2 {
+    border-radius: 12px;
+    margin: 10px;
+    border: 2px solid #3ea3aa;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-3 {
+    border-radius: 12px;
+    margin: 10px;
+    border: 2px solid #aa3e55;
     padding: 8px 10px;
     display: flex;
     align-items: center;

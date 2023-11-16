@@ -10,8 +10,67 @@
     scroll-behavior: smooth;
 }
 
+.text-gradient-opium {
+    background: -webkit-linear-gradient(#ffc6f3, #fa69ff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #ffa5d2, 0 0 10px #ff71b8, 0 0 20px #ff99cc, 0 0 30px #ff53a9, 0 0 40px #ffcfe7;
+    }
+    to {
+        text-shadow: 0 0 1px #fff, 0 0 3px #ff71b8, 0 0 4px #ffa5d2, 0 0 10px #ff53a9, 0 0 20px #ff99cc, 0 0 30px #ff4da6, 0 0 40px #ffcfe7;
+    }
+}
+
+.tech-info {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family: 'Fira Mono', monospace;
+}
+
+.beg {
+    color: #4e3eaa !important;
+}
+
+.inter {
+    color: #3ea3aa !important;
+}
+
+.adv {
+    color: #aa3e55 !important;
+}
+
 body {
-    background-color: #1e232e;
+    background: linear-gradient(-45deg, #1e232e, #2e2d46);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 ::-webkit-scrollbar {

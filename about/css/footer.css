@@ -1,19 +1,36 @@
 .footer-container {
-    border-top: 1px solid #3e79aa;
     margin: 50px auto;
+    margin-bottom: 0px;
     padding-top: 50px;
+    height: 40%;
+    background: linear-gradient(-45deg, #543b69, #6d4d88, #9669bb, #be86ec);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 25vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .footer {
     margin: 0 auto;
-    padding: 0 25px;
+    padding: 0 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 5px;
 }
 
 .footer-column {
@@ -25,7 +42,7 @@
 }
 
 .footer-logo {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 5px;
     letter-spacing: 0.05em;
 }
@@ -36,9 +53,6 @@
 
 .socials ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
     margin: 15px 0;
 }
 
@@ -57,8 +71,6 @@
 
 .footer-button {
     display: flex;
-    text-align: center;
-    align-items: center;
     letter-spacing: 0.05em;
     transition: all 0.2s ease;
 }
