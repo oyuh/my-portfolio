@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'RadWave';
-    src: url('fonts/RadWave.otf') format('opentype');
+    src: url('RadWave.otf') format('opentype');
 }
 
 .text-gradient-opium {
