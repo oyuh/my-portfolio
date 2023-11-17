@@ -1,0 +1,58 @@
+.contact-form {
+    background-color: transparent;
+    border: 1px solid #cccccc00;
+    /* You can style the border as you like */
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact-form::placeholder {
+    color: #666;
+    /* Color of the placeholder text */
+}
+
+.big-form {
+    height: 3.5em;
+    width: 40em;
+}
+
+.contact-form:focus {
+    outline: none;
+    border: .5px solid #9284f075;
+}
+
+.submit-button {
+    position: relative;
+    background-color: #9284f0;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 10em;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.submit-button:after {
+    content: "";
+    background: #bfb7f3;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.submit-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}

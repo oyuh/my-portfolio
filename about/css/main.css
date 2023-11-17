@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
@@ -15,6 +15,11 @@
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     -webkit-animation: hue 60s infinite linear;
+}
+
+@font-face {
+    font-family: 'RadWave';
+    src: url('./RadWave.otf') format('opentype');
 }
 
 .glow {
@@ -40,7 +45,7 @@
     font-size: 1.2em;
     font-weight: 700;
     letter-spacing: 0.1em;
-    font-family: 'Fira Mono', monospace;
+    font-family: 'RadWave', monospace;
 }
 
 .beg {
@@ -92,7 +97,17 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'RadWave', monospace;
+    letter-spacing: 3px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.144);
+}
+
+.my-name {
+    letter-spacing: 0.1em;
+    font-family: 'RadWave', monospace;
+    background: -webkit-linear-gradient(#9384f0, #ffb2f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -108,6 +123,11 @@ h3 {
     font-size: 1.4em;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+::selection {
+    color: white;
+    background: rgb(255, 109, 219);
 }
 
 a,

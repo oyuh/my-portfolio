@@ -5,6 +5,7 @@ em {
 .projects {
     padding-top: 100px;
     max-width: 1200px;
+    letter-spacing: 3px;
 }
 
 .project-cards-container {
@@ -26,13 +27,27 @@ em {
     max-width: 100%;
     border-radius: 10px 10px 0 0;
     padding: 5px;
-    background-color: white;
+    background: linear-gradient(45deg, white, rgb(255, 255, 255)) !important;
+    animation: cardanim 15s ease infinite;
 }
 
 .card-info {
     padding: 25px;
-    background-color: #FFFFFF;
+    background: linear-gradient(45deg, white, rgb(255, 211, 248)) !important;
+    animation: cardanim 15s ease infinite;
     border-radius: 0 0 10px 10px;
+}
+
+@keyframes cardanim {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .has-no-preview .card-info {

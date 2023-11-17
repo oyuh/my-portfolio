@@ -51,7 +51,10 @@
 
 .my-name {
     letter-spacing: 0.1em;
-    font-family: 'Fira Code', monospace;
+    font-family: 'RadWave', monospace;
+    background: -webkit-linear-gradient(#9384f0, #ffb2f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3 {

@@ -6,7 +6,7 @@
     background: linear-gradient(-45deg, #543b69, #6d4d88, #9669bb, #be86ec);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 25vh;
+    height: 28vh;
 }
 
 @keyframes gradient {
@@ -31,6 +31,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5px;
+    padding-bottom: 50px;
 }
 
 .footer-column {
@@ -67,6 +68,7 @@
 .copyright {
     margin-top: 5px;
     letter-spacing: 0.05em;
+    margin-bottom: 20px;
 }
 
 .footer-button {
